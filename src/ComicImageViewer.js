@@ -142,24 +142,44 @@ const ComicImageViewer = () => {
         <div className="">
           <div className="flex items-center justify-center my-6">
             <p className="text-white flex bg-red-500 px-4 py-2 rounded shadow-lg animate-fadeIn">
-              <TbAlertTriangleFilled className="mr-2 relative top-1" />
+              <TbAlertTriangleFilled className="mr-2 relative top-1 sm:text-2xl" />
               Please wait after clicking the Generate button, the system takes
               4-5 mins time to generate all 10 images.
             </p>
           </div>
-          <div className="flex">
-            <Preloader />
-            <Preloader />
-            <Preloader />
-            <Preloader />
-            <Preloader />
+          <div className="flex justify-center text-center">
+            <div className="">
+              <Preloader />
+            </div>
+            <div className="hidden md:block">
+              <Preloader />
+            </div>
+            <div className="hidden md:block">
+              <Preloader />
+            </div>
+            <div className="hidden lg:block">
+              <Preloader />
+            </div>
+            <div className="hidden lg:block">
+              <Preloader />
+            </div>
           </div>
-          <div className="flex">
-            <Preloader />
-            <Preloader />
-            <Preloader />
-            <Preloader />
-            <Preloader />
+          <div className="flex justify-center text-center">
+            <div className="">
+              <Preloader />
+            </div>
+            <div className="hidden md:block">
+              <Preloader />
+            </div>
+            <div className="hidden md:block">
+              <Preloader />
+            </div>
+            <div className="hidden lg:block">
+              <Preloader />
+            </div>
+            <div className="hidden lg:block">
+              <Preloader />
+            </div>
           </div>
         </div>
       ) : (
