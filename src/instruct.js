@@ -1,4 +1,3 @@
-// Modal.js
 import React from "react";
 import Modal from "react-modal";
 import { GrClose } from "react-icons/gr";

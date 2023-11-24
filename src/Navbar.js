@@ -22,16 +22,14 @@ const Navbar = () => {
   return (
     <nav className="bg-black p-4">
       <div className="container mx-auto flex justify-between items-center">
-        {/* Logo */}
         <div className="flex items-center">
           <img
-            src={process.env.PUBLIC_URL + "/dashtoon.png"} // Replace with the path to your logo image
+            src={process.env.PUBLIC_URL + "/dashtoon.png"}
             alt="Logo"
             className="h-8 w-auto"
           />
         </div>
 
-        {/* Navigation buttons for desktop */}
         <div className="hidden md:flex items-center">
           <button
             onClick={toggleInstructModal}
@@ -47,7 +45,6 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Menu icon for mobile */}
         <div className="md:hidden">
           <button
             className="text-white focus:outline-none"
@@ -57,7 +54,6 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Mobile menu */}
         {isMenuOpen && (
           <div className="md:hidden absolute top-16 right-0 bg-gray-800 p-4">
             <button

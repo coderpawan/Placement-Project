@@ -1,14 +1,12 @@
-// Modal.js
 import React from "react";
 import Modal from "react-modal";
-import { GrClose } from "react-icons/gr"; // Import a close icon from your preferred icon library
-
-Modal.setAppElement("#root"); // Set the root element for accessibility
+import { GrClose } from "react-icons/gr";
+Modal.setAppElement("#root");
 
 const CustomModal = ({ isOpen, closeModal, imageUrl }) => {
   const overlayStyle = {
     overlay: {
-      backgroundColor: "rgba(0, 0, 0, 0.6)", // Semi-transparent black overlay
+      backgroundColor: "rgba(0, 0, 0, 0.6)",
       zIndex: 1000,
     },
   };

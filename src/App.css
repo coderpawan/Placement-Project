@@ -11,7 +11,7 @@
   animation: fadeIn 3s ease;
 }
 
-/* Add these styles to your CSS */
+
 .modal {
   position: fixed;
   top: 50%;
@@ -45,7 +45,6 @@
   position: relative;
 }
 
-/* Close button styles */
 button {
   background: none;
   border: none;
@@ -54,7 +53,7 @@ button {
 }
 
 button:hover {
-  color: #ff4500; /* Change the color on hover */
+  color: #ff4500;
 }
 
 

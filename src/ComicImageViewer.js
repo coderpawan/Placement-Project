@@ -87,7 +87,6 @@ const ComicImageViewer = () => {
     <div className="text-center bg-cover bg-fixed bg-center bg-comic-image h-screen overflow-x-hidden">
       <Navbar />
 
-      {/* Input Forms */}
       <div className="flex flex-wrap justify-center mt-10">
         {[...Array(10).keys()].map((index) => (
           <div

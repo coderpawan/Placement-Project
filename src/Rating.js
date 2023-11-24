@@ -38,13 +38,11 @@ const RatingModal = ({ isOpen, closeModal }) => {
     setFeedbackSubmitted(true);
 
     console.log("submitted");
-
-    // You can handle the feedback submission (e.g., send it to a server) here
   };
 
   const overlayStyle = {
     overlay: {
-      backgroundColor: "rgba(0, 0, 0, 0.6)", // Semi-transparent black overlay
+      backgroundColor: "rgba(0, 0, 0, 0.6)",
       zIndex: 1000,
     },
   };
